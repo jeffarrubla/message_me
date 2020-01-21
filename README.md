@@ -1,24 +1,5 @@
-# README
+# MessageMe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Taken from the course [the complete Ruby on Rails developer course](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Created using ActionCable and WebSockets
