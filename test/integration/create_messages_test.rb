@@ -11,10 +11,9 @@ class CreateMessagesTest < ActionDispatch::IntegrationTest
 		get root_path
 		assert_template 'chatroom/index'
 		assert_difference 'Message.count', 1 do
-			post message_path, params: {message: {body: "This is a message from test"}}
-			follow_redirect!
+			post message_path, params: {message: {body: "This is a message from test"}}			
 		end
-		assert_template 'chatroom/index'
+		assert_template 'messages/_message'
 		assert_match "This is a message from test", response.body
 	end	
 end
